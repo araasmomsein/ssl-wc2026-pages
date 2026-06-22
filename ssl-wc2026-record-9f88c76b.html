@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026世界杯 · 简明观赛参考</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f7f5f0;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            color: #2f2e2a;
+            line-height: 1.65;
+            padding: 0 1rem;
+        }
+
+        .page {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2.5rem 0 4rem;
+        }
+
+        /* hero */
+        .hero {
+            text-align: center;
+            padding: 3rem 0 2rem;
+        }
+
+        .hero h1 {
+            font-size: 2.6rem;
+            font-weight: 500;
+            letter-spacing: -0.02em;
+            color: #1e1d1a;
+        }
+
+        .hero .sub {
+            margin-top: 0.6rem;
+            font-size: 1.1rem;
+            color: #6b6964;
+            border-bottom: 1px solid #dcd9d2;
+            padding-bottom: 1.8rem;
+        }
+
+        /* 正文卡片式段落 */
+        .card-slice {
+            background: #fffffffa;
+            padding: 2rem 2.2rem;
+            margin: 2rem 0;
+            border-radius: 20px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.03);
+        }
+
+        .card-slice h2 {
+            font-size: 1.4rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+            padding-left: 0.6rem;
+            border-left: 4px solid #c5a86b;
+        }
+
+        .card-slice p {
+            margin-bottom: 1rem;
+        }
+
+        .card-slice p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* 提示框 / callout */
+        .callout {
+            background: #efece5;
+            padding: 1.4rem 1.8rem;
+            border-radius: 16px;
+            border-left: 5px solid #b8965a;
+            margin: 1.8rem 0;
+        }
+
+        .callout strong {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+        }
+
+        /* 优势网格 — 更偏向文章列表 */
+        .feature-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+            margin: 1.2rem 0 0.5rem;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: baseline;
+            gap: 0.8rem;
+        }
+
+        .feature-item .marker {
+            flex-shrink: 0;
+            width: 24px;
+            height: 24px;
+            background: #dac29c;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #2f2e2a;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .feature-item span {
+            font-weight: 450;
+        }
+
+        /* FAQ 摘要 */
+        .faq-list {
+            margin-top: 0.4rem;
+        }
+
+        .faq-q {
+            font-weight: 550;
+            margin: 1rem 0 0.2rem;
+        }
+
+        .faq-a {
+            padding-left: 0.2rem;
+            color: #3e3c37;
+        }
+
+        /* 底部 */
+        .footer-links {
+            margin-top: 3rem;
+            padding-top: 1.8rem;
+            border-top: 1px solid #dcd9d2;
+            text-align: center;
+            font-size: 0.95rem;
+            color: #6b6964;
+        }
+
+        .footer-links a {
+            color: #2f2e2a;
+            text-decoration: underline 1px solid #b8965a;
+            text-underline-offset: 3px;
+            font-weight: 450;
+        }
+
+        .footer-links a:hover {
+            color: #1e1d1a;
+            text-decoration-color: #8f7a4c;
+        }
+
+        .inline-link {
+            color: #2f2e2a;
+            text-decoration: underline 1px solid #b8965a;
+            text-underline-offset: 3px;
+            font-weight: 450;
+        }
+
+        .inline-link:hover {
+            text-decoration-color: #8f7a4c;
+        }
+
+        /* 响应式 */
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .card-slice {
+                padding: 1.4rem 1.2rem;
+            }
+            .page {
+                padding: 1.8rem 0 3rem;
+            }
+            .footer-links {
+                font-size: 0.9rem;
+            }
+            .feature-item {
+                gap: 0.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+
+    <div class="hero">
+        <h1>2026 · 世界杯</h1>
+        <div class="sub">一份简明观赛指南 &amp; 访问提醒</div>
+    </div>
+
+    <!-- 简短引入 -->
+    <div class="card-slice">
+        <p>四年一次的足球盛会总会带来新的期待。2026 年美加墨世界杯将首次由三个国家联合举办，赛制也迎来调整——决赛圈队伍扩军至 48 支。对许多球迷而言，最实际的问题往往不是谁会夺冠，而是<strong>哪里能及时了解赛程、分组、票务等基础信息</strong>。</p>
+        <p>如果你正在找一个相对集中、更新平实的信息来源，可以留意 <a class="inline-link" href="https://ssl-wc2026.com">世界杯</a> 这个站点。它并不是官方机构，但整理了不少可供参考的基础内容，适合赛前先随手翻翻。</p>
+    </div>
+
+    <!-- 优势区：从“为什么值得看一眼”切入 -->
+    <div class="card-slice">
+        <h2>为什么值得先看一眼</h2>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <div class="marker">1</div>
+                <span>赛程与分组概览 — 把三个主办国的比赛城市、场馆、时区差异列在一起，方便规划</span>
+            </div>
+            <div class="feature-item">
+                <div class="marker">2</div>
+                <span>票务与旅行提示 — 不卖票，但整理了官方售票阶段、转运提醒以及跨境观赛的常见注意事项</span>
+            </div>
+            <div class="feature-item">
+                <div class="marker">3</div>
+                <span>基础规则变化 — 48 队赛制怎么打？小组出线逻辑是什么？用平实的语言解释，不含猜测</span>
+            </div>
+            <div class="feature-item">
+                <div class="marker">4</div>
+                <span>界面干净，没有弹窗广告轰炸 — 适合查完就走，或者先收藏起来</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 说明区 + 提示框组合 -->
+    <div class="card-slice">
+        <h2>一些实用提醒</h2>
+        <p>很多朋友习惯到开赛前一个月才匆忙找信息，但那段时间往往也是钓鱼网站、虚假票务流出最多的时候。所以提前认准一个相对可靠的渠道，把它放进收藏夹，能省下不少麻烦。</p>
+
+        <div class="callout">
+            <strong>📌 访问提醒</strong>
+            无论你是打算去现场，还是在家追直播，都建议通过正规渠道获取门票和转播信息。<br>
+            本站点的 <a class="inline-link" href="https://ssl-wc2026.com">世界杯</a> 页面只做信息整理，不代购、不售票，也不收集个人隐私。如果看到任何要求提前转账或提供证件照片的链接，请务必警惕。
+        </div>
+
+        <p>另外，由于 2026 年横跨北美三个时区，赛程编排会比以往复杂。一些比赛可能安排在美东时间的上午或傍晚，对应到国内可能是深夜或凌晨，提前留意时差能帮你少熬一些冤枉夜。</p>
+    </div>
+
+    <!-- FAQ 摘要（非完整，仅摘录常见） -->
+    <div class="card-slice">
+        <h2>常见疑问 · 摘要</h2>
+        <div class="faq-list">
+            <div class="faq-q">Q：2026 世界杯什么时候开始？</div>
+            <div class="faq-a">A：计划 2026 年 6 月 11 日至 7 月 19 日，共 39 天。具体日期以官方最终确认为准。</div>
+
+            <div class="faq-q">Q：哪些城市举办？</div>
+            <div class="faq-a">A：美国 11 个城市（包括纽约/新泽西、洛杉矶、达拉斯等）、加拿大 2 个（温哥华、多伦多）、墨西哥 3 个（墨西哥城、瓜达拉哈拉、蒙特雷）。</div>
+
+            <div class="faq-q">Q：这个网站能买到票吗？</div>
+            <div class="faq-a">A：不能。它只汇总官方发布的票务阶段和链接，购票请认准 FIFA 官方渠道。任何声称能“内部留票”的页面都与它无关。</div>
+
+            <div class="faq-q">Q：内容多久更新一次？</div>
+            <div class="faq-a">A：根据官方信息变动不定期更新，赛前半年会相对频繁一些。你可以把 <a class="inline-link" href="https://ssl-wc2026.com">世界杯</a> 存到书签，过一两周回来看一眼。</div>
+        </div>
+    </div>
+
+    <!-- 底部链接 -->
+    <div class="footer-links">
+        <p>更多基础信息 · <a href="https://ssl-wc2026.com">世界杯</a> &nbsp;·&nbsp; 赛程 / 分组 / 提醒</p>
+        <p style="margin-top: 0.5rem; font-size: 0.85rem; color: #908d86;">内容仅供参考，以官方发布为准</p>
+    </div>
+
+</div>
+</body>
+</html>
